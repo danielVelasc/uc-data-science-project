@@ -12,7 +12,7 @@ python3.7 -m venv env
 source env/bin/activate
 
 # Install dependencies for the project
-pip3 install requirements.txt
+pip3 install --upgrade -r requirements.txt
 ```
 
 After adding a new library, run 
