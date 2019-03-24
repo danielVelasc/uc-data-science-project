@@ -20,11 +20,7 @@ After adding a new library, run
 to keep track of it.
 
 #### Notebooks
-Rather than tracking notebooks in git, a better code review experience,
-the project managers
-have decided it is better to commit changes as python scripts
-rather than Jupyter notebooks.
-
+It is optional to track work in Jupyter notebooks (.ipynb) or Python Scripts (.py).
 To track notebooks in git as python scripts, run the following prior to committing.
 ```
 jupyter nbconvert --to script <filename>
